@@ -9,7 +9,7 @@ from google.colab import drive ##this is where I stored files, change the ' x '.
 ######## Import Data ########
 
 #### Data on the Historical prices
-stock_data=pd.read_excel('/content/drive/MyDrive/Data - Priser.xlsx')#,header=0,index_col=0,parse_dates=True)
+stock_data=pd.read_excel('/content/drive/MyDrive/Data - Priser.xlsx')
 
 #### Data on the buysignals for the different portfolios, change depending on which portfolio to investigate
 df=pd.read_excel('/content/drive/MyDrive/B -- Nästminsta portföljen 5-9,99% täckning.xlsx')
